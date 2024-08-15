@@ -31,7 +31,9 @@ Here are some books I've personally read and highly recommend:
     * Category: Cibersecurity.
 
 # 📝 LeetCode Profile
-![LeetCode Stats](https://leetcard.jacoblin.cool/Dexaroz?theme=dark&font=Noto%20Sans%20Soyombo)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Dexaroz?theme=dark&font=Noto%20Sans%20Soyombo).
+
+Ranking: 718.274.
 
 # 🌐 Connect with Me
 * [LinkedIn](https://www.linkedin.com/in/eduardo-marrero-gonz%C3%A1lez-515848227/)
