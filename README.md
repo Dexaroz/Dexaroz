@@ -1,3 +1,5 @@
+![Banner](banner-github.png)
+
 # Hi there, I'm Dexaroz 👋
 Welcome to my GitHub profile! I'm currently studing Computer Science at the ULPGC with a keen interest in Web Development, Software Development, Cibersecurity, Data Science and Artificial Inteligence + Machine Learning. Here you'll find information about the courses I've taken and the skills I'm currently developing. Feel free to explore and connect!
 
