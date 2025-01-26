@@ -14,6 +14,18 @@ Welcome to my GitHub profile! I'm currently studing Computer Science at the ULPG
     * Institution: Codecademy.
     * Completion Date: Active.
 
+ * [Getting Started with Linux Fundamentals (RH104)](https://www.redhat.com/es)
+    * Institution: Red Hat.
+    * Completion Date: Completed.
+      
+ * [Red Hat System Administration I (RH124)](https://www.redhat.com/es)
+    * Institution: Red Hat.
+    * Completion Date: Completed.
+      
+ * [Red Hat System Administration II (RH134)](https://www.redhat.com/es)
+    * Institution: Red Hat.
+    * Completion Date: Completed.
+
 
 # 🛠️ Technologies & Tools
 Here are some of the technologies and tools I use and am interested in:
