@@ -12,19 +12,19 @@ Welcome to my GitHub profile! I'm currently studing Computer Science at the ULPG
 
  * [Full-Stack Engineer Path](https://www.codecademy.com/career-journey/full-stack-engineer)
     * Institution: Codecademy.
-    * Completion Date: Active.
+    * State: Active.
 
  * [Getting Started with Linux Fundamentals (RH104)](https://www.redhat.com/es)
     * Institution: Red Hat.
-    * Completion Date: Completed.
+    * State: Completed.
       
  * [Red Hat System Administration I (RH124)](https://www.redhat.com/es)
     * Institution: Red Hat.
-    * Completion Date: Completed.
+    * State: Completed.
       
  * [Red Hat System Administration II (RH134)](https://www.redhat.com/es)
     * Institution: Red Hat.
-    * Completion Date: Completed.
+    * State: Completed.
 
 
 # 🛠️ Technologies & Tools
