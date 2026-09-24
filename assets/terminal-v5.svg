@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="378" viewBox="0 0 900 378" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="346" viewBox="0 0 900 346" role="img" aria-labelledby="title description">
   <title id="title">Dexaroz terminal profile</title>
   <desc id="description">ASCII art and a static summary of Eduardo's role, interests, technologies and links.</desc>
   <defs>
@@ -14,16 +14,16 @@
       <stop offset="1" stop-color="#ff7846" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="378" rx="18" fill="#1b1816"/>
+  <rect width="900" height="346" rx="18" fill="#1b1816"/>
   <path d="M18 0h864a18 18 0 0 1 18 18v27H0V18A18 18 0 0 1 18 0Z" fill="#2b221d"/>
   <circle cx="22" cy="23" r="4" fill="#ff7140"/>
   <circle cx="37" cy="23" r="4" fill="#e6a36f"/>
   <circle cx="52" cy="23" r="4" fill="#e2c9ad"/>
   <text x="450" y="27" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#d4b5a1">dexaroz@github ~ /profile</text>
-  <rect x="18" y="62" width="390" height="296" rx="10" fill="url(#screen)" stroke="#674d3f"/>
-  <rect x="420" y="62" width="462" height="296" rx="10" fill="url(#screen)" stroke="#674d3f"/>
+  <rect x="18" y="62" width="390" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
+  <rect x="420" y="62" width="462" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
   <rect x="18" y="66" width="864" height="28" fill="url(#scan)">
-    <animate attributeName="y" values="66;323;66" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="66;291;66" dur="3s" repeatCount="indefinite"/>
   </rect>
   <text x="36" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">VISUAL.MAP</text>
   <text x="36" y="116" xml:space="preserve" font-family="Consolas, monospace" font-size="15" fill="#ffeadb">
@@ -37,13 +37,12 @@
   <text x="36" y="289" font-family="Consolas, monospace" font-size="13" fill="#ff9063">&gt; building useful software_</text>
   <text x="440" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">SYSTEM.INFO</text>
   <g font-family="Consolas, monospace" font-size="14">
-    <text x="440" y="129" fill="#caad9b">name<tspan fill="#c2a18e">.........</tspan></text><text x="555" y="129" fill="#fff4eb">Eduardo Marrero González</text>
-    <text x="440" y="165" fill="#caad9b">handle<tspan fill="#c2a18e">.......</tspan></text><text x="555" y="165" fill="#fff4eb">@Dexaroz</text>
-    <text x="440" y="201" fill="#caad9b">role<tspan fill="#c2a18e">.........</tspan></text><text x="555" y="201" fill="#fff4eb">Software developer</text>
-    <text x="440" y="237" fill="#caad9b">languages<tspan fill="#c2a18e">....</tspan></text><text x="555" y="237" fill="#fff4eb">Java · Python · C# · TypeScript</text>
-    <text x="440" y="273" fill="#caad9b">frameworks<tspan fill="#c2a18e">...</tspan></text><text x="555" y="273" font-size="12" fill="#fff4eb">Frontend: React · Next.js · Angular</text>
-    <text x="555" y="296" font-size="12" fill="#fff4eb">Backend &amp; APIs: Spring Boot · .NET · FastAPI</text>
-    <text x="440" y="337" fill="#caad9b">status<tspan fill="#c2a18e">.......</tspan></text><text x="555" y="337" fill="#fff4eb">Building and learning</text>
+    <text x="440" y="129" fill="#caad9b">name<tspan fill="#c2a18e">............</tspan></text><text x="580" y="129" fill="#fff4eb">Eduardo Marrero González</text>
+    <text x="440" y="165" fill="#caad9b">handle<tspan fill="#c2a18e">..........</tspan></text><text x="580" y="165" fill="#fff4eb">@Dexaroz</text>
+    <text x="440" y="201" fill="#caad9b">role<tspan fill="#c2a18e">............</tspan></text><text x="580" y="201" fill="#fff4eb">Software developer</text>
+    <text x="440" y="237" fill="#caad9b">languages<tspan fill="#c2a18e">.......</tspan></text><text x="580" y="237" fill="#fff4eb">Java · Python · C# · TypeScript</text>
+    <text x="440" y="273" fill="#caad9b">frontend<tspan fill="#c2a18e">........</tspan></text><text x="580" y="273" fill="#fff4eb">React · Next.js · Angular</text>
+    <text x="440" y="309" fill="#caad9b">backend &amp; APIs<tspan fill="#c2a18e">..</tspan></text><text x="580" y="309" fill="#fff4eb">Spring Boot · .NET · FastAPI</text>
   </g>
-  <rect x=".5" y=".5" width="899" height="377" rx="17.5" fill="none" stroke="#715545"/>
+  <rect x=".5" y=".5" width="899" height="345" rx="17.5" fill="none" stroke="#715545"/>
 </svg>
