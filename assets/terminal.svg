@@ -6,6 +6,13 @@
       <stop stop-color="#29221e"/>
       <stop offset="1" stop-color="#1c1917"/>
     </linearGradient>
+    <linearGradient id="scan" x2="0" y2="1">
+      <stop stop-color="#ff7846" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#ff7846" stop-opacity=".17"/>
+      <stop offset=".5" stop-color="#ffc49e" stop-opacity=".48"/>
+      <stop offset=".58" stop-color="#ff7846" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#ff7846" stop-opacity="0"/>
+    </linearGradient>
   </defs>
   <rect width="900" height="346" rx="18" fill="#1b1816" stroke="#715545"/>
   <path d="M18 0h864a18 18 0 0 1 18 18v27H0V18A18 18 0 0 1 18 0Z" fill="#2b221d"/>
@@ -15,6 +22,9 @@
   <text x="450" y="27" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#d4b5a1">dexaroz@github ~ /profile</text>
   <rect x="18" y="62" width="390" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
   <rect x="420" y="62" width="462" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
+  <rect x="18" y="66" width="864" height="28" fill="url(#scan)">
+    <animate attributeName="y" values="66;291;66" dur="3s" repeatCount="indefinite"/>
+  </rect>
   <text x="36" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">VISUAL.MAP</text>
   <text x="36" y="116" xml:space="preserve" font-family="Consolas, monospace" font-size="15" fill="#ffeadb">
     <tspan x="36" dy="0"> _____</tspan>

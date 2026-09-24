@@ -1,4 +1,4 @@
-![Eduardo Marrero González — Dexaroz](assets/header.png)
+![Eduardo Marrero González — Dexaroz](assets/header.svg)
 
 <p align="center">
   <a href="https://eduardomarrero.dev/es">Website</a> ·
@@ -6,7 +6,7 @@
   <a href="https://github.com/Dexaroz">GitHub</a>
 </p>
 
-![Animated terminal profile with ASCII art and system information](assets/terminal.gif)
+![Terminal profile with ASCII art and system information](assets/terminal.svg)
 
 ### Highlights
 
