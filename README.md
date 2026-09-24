@@ -6,10 +6,6 @@
 
 ![Terminal profile with ASCII art and system information](assets/terminal-v5.svg)
 
-### Highlights
-
-| Open source | Applied AI | Useful software |
-| :--- | :--- | :--- |
-| Tools for building and observing agent systems. | Projects involving data, vision and language. | Products designed around everyday problems. |
+![Technology icons grouped by languages, frontend, and backend APIs](assets/skills-banner.svg)
 
 [![Pinned projects, generated from the public GitHub profile](assets/projects.svg)](https://github.com/Dexaroz)
