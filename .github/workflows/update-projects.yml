@@ -1,6 +1,12 @@
-name: Update pinned projects
+name: Update profile
 
 on:
+  push:
+    paths:
+      - profile.yml
+      - scripts/**
+      - templates/**
+      - assets/avatar.jpg
   schedule:
     - cron: '2/5 * * * *'
   workflow_dispatch:
@@ -13,15 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - name: Render pinned projects
+      - name: Install YAML parser
+        run: python3 -m pip install PyYAML==6.0.3
+      - name: Render profile
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 scripts/update_projects.py
+        run: python3 scripts/render_profile.py
       - name: Commit when changed
         run: |
-          if git diff --quiet -- assets/projects.svg; then exit 0; fi
+          git add -A README.md assets
+          if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/projects.svg
-          git commit -m 'Update pinned projects'
+          git commit -m 'Update profile from YAML and GitHub'
           git push

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="346" viewBox="0 0 900 346" role="img" aria-labelledby="title description">
   <title id="title">Dexaroz terminal profile</title>
-  <desc id="description">ASCII art and a static summary of Eduardo's role, interests, technologies and links.</desc>
+  <desc id="description">ASCII art and a summary of Eduardo Marrero González's role and technologies.</desc>
   <defs>
     <linearGradient id="screen" x2="0" y2="1">
       <stop stop-color="#29221e"/>
@@ -27,10 +27,10 @@
   </rect>
   <text x="36" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">VISUAL.MAP</text>
   <text x="36" y="116" xml:space="preserve" font-family="Consolas, monospace" font-size="15" fill="#ffeadb">
-    <tspan x="36" dy="0"> _____</tspan>
+    <tspan x="36" dy="0">_____</tspan>
     <tspan x="36" dy="24">|  __ \</tspan>
     <tspan x="36" dy="24">| |  | | _____  ____ _ _ __ ___ ____</tspan>
-    <tspan x="36" dy="24">| |  | |/ _ \ \/ / _` | '__/ _ \_  /</tspan>
+    <tspan x="36" dy="24">| |  | |/ _ \ \/ / _` | &#x27;__/ _ \_  /</tspan>
     <tspan x="36" dy="24">| |__| |  __/&gt;  &lt; (_| | | | (_) / /</tspan>
     <tspan x="36" dy="24">|_____/ \___/_/\_\__,_|_|  \___/___|</tspan>
   </text>
@@ -39,7 +39,7 @@
   <g font-family="Consolas, monospace" font-size="14">
     <text x="440" y="129" fill="#caad9b">name<tspan fill="#c2a18e">............</tspan></text><text x="580" y="129" fill="#fff4eb">Eduardo Marrero González</text>
     <text x="440" y="165" fill="#caad9b">handle<tspan fill="#c2a18e">..........</tspan></text><text x="580" y="165" fill="#fff4eb">@Dexaroz</text>
-    <text x="440" y="201" fill="#caad9b">role<tspan fill="#c2a18e">............</tspan></text><text x="580" y="201" fill="#fff4eb">Software developer</text>
+    <text x="440" y="201" fill="#caad9b">role<tspan fill="#c2a18e">............</tspan></text><text x="580" y="201" fill="#fff4eb">Software Developer</text>
     <text x="440" y="237" fill="#caad9b">languages<tspan fill="#c2a18e">.......</tspan></text><text x="580" y="237" fill="#fff4eb">Java · Python · C# · TypeScript</text>
     <text x="440" y="273" fill="#caad9b">frontend<tspan fill="#c2a18e">........</tspan></text><text x="580" y="273" fill="#fff4eb">React · Next.js · Angular</text>
     <text x="440" y="309" fill="#caad9b">backend &amp; APIs<tspan fill="#c2a18e">..</tspan></text><text x="580" y="309" fill="#fff4eb">Spring Boot · .NET · FastAPI</text>

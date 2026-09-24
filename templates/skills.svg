@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title description">
+  <title id="title">Technologies {{NAME}} works with</title>
+  <desc id="description">{{SKILLS_DESCRIPTION}}</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#30231e"/>
+      <stop offset="1" stop-color="#201c19"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop stop-color="#ff713e" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#ff713e" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="panelClip"><rect x="18" y="18" width="864" height="184" rx="15"/></clipPath>
+  </defs>
+  <rect width="900" height="220" rx="20" fill="#1b1816"/>
+  <rect x="18" y="18" width="864" height="184" rx="15" fill="url(#panel)" stroke="#655044"/>
+  <ellipse cx="710" cy="45" rx="250" ry="125" fill="url(#light)" clip-path="url(#panelClip)"/>
+  <text x="46" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#ff9063">TECH STACK</text>
+  <path d="M46 72h808" stroke="#655044"/>
+  {{SKILLS_CONTENT}}
+</svg>

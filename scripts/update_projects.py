@@ -1,17 +1,15 @@
-"""Render Dexaroz's pinned public repositories as a self-hosted SVG."""
+"""Fetch and render public repositories pinned on a GitHub profile."""
 
 import html
 import json
-import os
 import textwrap
 import urllib.request
 from datetime import datetime, timezone
-from pathlib import Path
 
 
-QUERY = """query {
-  user(login: "Dexaroz") {
-    pinnedItems(first: 4, types: REPOSITORY) {
+QUERY = """query($login: String!, $count: Int!) {
+  user(login: $login) {
+    pinnedItems(first: $count, types: REPOSITORY) {
       nodes {
         ... on Repository {
           name
@@ -64,7 +62,7 @@ def project_card(repo, x, y):
     </g>"""
 
 
-def render(repos):
+def render(repos, handle="Dexaroz"):
     if not repos:
         raise ValueError("No pinned repositories returned; keeping the previous image")
     rows = (len(repos) + 1) // 2
@@ -72,8 +70,8 @@ def render(repos):
     checked = datetime.now(timezone.utc).strftime("%Y-%m")
     cards = "".join(project_card(repo, 18 + (i % 2) * 442, 70 + (i // 2) * 188) for i, repo in enumerate(repos))
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-labelledby="title description">
-  <title id="title">Dexaroz pinned projects</title>
-  <desc id="description">Public repositories pinned on Dexaroz's GitHub profile, updated by GitHub Actions.</desc>
+  <title id="title">{safe(handle)} pinned projects</title>
+  <desc id="description">Public repositories pinned on {safe(handle)}'s GitHub profile, updated by GitHub Actions.</desc>
   <style>
     .card {{ fill: #29221e; stroke: #715545; }}
     .meta {{ fill: #d4b5a1; font: 12px Consolas, monospace; }}
@@ -92,21 +90,17 @@ def render(repos):
 """
 
 
-def main():
-    token = os.environ["GITHUB_TOKEN"]
+def fetch(handle, count, token):
     request = urllib.request.Request(
         "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY}).encode(),
+        data=json.dumps({"query": QUERY, "variables": {"login": handle, "count": count}}).encode(),
         headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "User-Agent": "dexaroz-profile"},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         result = json.load(response)
     if result.get("errors"):
         raise RuntimeError(result["errors"])
-    repos = result["data"]["user"]["pinnedItems"]["nodes"]
-    output = Path(__file__).resolve().parents[1] / "assets" / "projects.svg"
-    output.write_text(render(repos), encoding="utf-8")
-
-
-if __name__ == "__main__":
-    main()
+    user = result.get("data", {}).get("user")
+    if not user:
+        raise ValueError(f"GitHub user not found: {handle}")
+    return user["pinnedItems"]["nodes"]

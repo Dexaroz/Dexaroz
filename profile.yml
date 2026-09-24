@@ -1,0 +1,38 @@
+# Edita este archivo y publica el cambio: la Action regenerará el README y las imágenes.
+profile:
+  name: Eduardo Marrero González
+  handle: Dexaroz
+  role: Software Developer | Data Science, AI & ML
+  tagline: building useful software_
+  avatar: assets/avatar.jpg
+
+links:
+  website: https://eduardomarrero.dev/es
+  linkedin: https://www.linkedin.com/in/eduardomarreroglezz/
+
+visual_map: |-
+   _____
+   |  __ \
+   | |  | | _____  ____ _ _ __ ___ ____
+   | |  | |/ _ \ \/ / _` | '__/ _ \_  /
+   | |__| |  __/>  < (_| | | | (_) / /
+   |_____/ \___/_/\_\__,_|_|  \___/___|
+
+technologies:
+  languages:
+    - {name: Java, icon: java}
+    - {name: Python, icon: py}
+    - {name: 'C#', icon: cs}
+    - {name: TypeScript, icon: ts}
+  frontend:
+    - {name: React, icon: react}
+    - {name: Next.js, icon: nextjs}
+    - {name: Angular, icon: angular}
+  backend:
+    - {name: Spring Boot, icon: spring}
+    - {name: .NET, icon: dotnet}
+    - {name: FastAPI, icon: fastapi}
+
+projects:
+  source: pinned
+  count: 4
