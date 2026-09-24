@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 TEMPLATES = ROOT / "templates"
 KINDS = ("header", "link-website", "link-linkedin", "terminal", "skills", "projects")
+FADE_DELAY = {"header": 0, "link-website": .15, "link-linkedin": .25, "terminal": .4, "skills": .65, "projects": .9}
 
 
 def escaped(value):
@@ -31,6 +32,24 @@ def template(name, **values):
         result = result.replace("{{" + key + "}}", escaped(value) if key not in {"AVATAR", "ASCII", "SKILLS_CONTENT"} else value)
     if "{{" in result:
         raise ValueError(f"Unfilled placeholder in {name}.svg")
+    ET.fromstring(result)
+    return result
+
+
+def fade(svg, delay):
+    """Animate an image on load; leave it visible when animation is unsupported."""
+    anchor = next((tag for tag in ("</defs>", "</style>", "</desc>", "</title>") if tag in svg), None)
+    if not anchor:
+        raise ValueError("SVG has no metadata boundary")
+    start = svg.index(anchor) + len(anchor)
+    end = svg.rindex("</svg>")
+    style = f'''\n  <style>
+    @keyframes panel-fade {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
+    .panel-fade {{ animation: panel-fade .65s ease-out {delay:g}s both; }}
+    @media (prefers-reduced-motion: reduce) {{ .panel-fade {{ animation: none; }} }}
+  </style>
+  <g class="panel-fade">'''
+    result = svg[:start] + style + svg[start:end] + "\n  </g>\n" + svg[end:]
     ET.fromstring(result)
     return result
 
@@ -115,9 +134,7 @@ def build(config, avatar):
         "skills": template("skills", NAME=name, SKILLS_DESCRIPTION="Skill Icons for " + ", ".join(t["name"] for group in groups.values() for t in group) + ".", SKILLS_CONTENT=skill_icons(groups)),
     }
     panels["projects"] = render_projects(fetch(handle, projects["count"], os.environ["GITHUB_TOKEN"]), handle)
-    for svg in panels.values():
-        ET.fromstring(svg)
-    return panels
+    return {kind: fade(svg, FADE_DELAY[kind]) for kind, svg in panels.items()}
 
 
 def main():

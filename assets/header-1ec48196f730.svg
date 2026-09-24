@@ -12,6 +12,12 @@
     </radialGradient>
     <clipPath id="avatarClip"><rect x="42" y="40" width="100" height="100" rx="12"/></clipPath>
   </defs>
+  <style>
+    @keyframes panel-fade { from { opacity: 0; } to { opacity: 1; } }
+    .panel-fade { animation: panel-fade .65s ease-out 0s both; }
+    @media (prefers-reduced-motion: reduce) { .panel-fade { animation: none; } }
+  </style>
+  <g class="panel-fade">
   <rect width="900" height="180" rx="20" fill="#1b1816"/>
   <rect x="18" y="18" width="864" height="144" rx="15" fill="url(#panel)" stroke="#655044"/>
   <ellipse cx="690" cy="45" rx="250" ry="125" fill="url(#light)"/>
@@ -20,4 +26,6 @@
   <text x="153" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2" fill="#ff9063">@DEXAROZ</text>
   <text x="151" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#fff8f2">Eduardo Marrero González</text>
   <text x="153" y="142" xml:space="preserve" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#d8c7bd">Software Developer | Data Science, AI &amp; ML</text>
+
+  </g>
 </svg>

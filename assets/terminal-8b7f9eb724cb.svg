@@ -14,6 +14,12 @@
       <stop offset="1" stop-color="#ff7846" stop-opacity="0"/>
     </linearGradient>
   </defs>
+  <style>
+    @keyframes panel-fade { from { opacity: 0; } to { opacity: 1; } }
+    .panel-fade { animation: panel-fade .65s ease-out 0.4s both; }
+    @media (prefers-reduced-motion: reduce) { .panel-fade { animation: none; } }
+  </style>
+  <g class="panel-fade">
   <rect width="900" height="346" rx="18" fill="#1b1816"/>
   <path d="M18 0h864a18 18 0 0 1 18 18v27H0V18A18 18 0 0 1 18 0Z" fill="#2b221d"/>
   <circle cx="22" cy="23" r="4" fill="#ff7140"/>
@@ -45,4 +51,6 @@
     <text x="440" y="309" fill="#caad9b">backend &amp; APIs<tspan fill="#c2a18e">..</tspan></text><text x="580" y="309" fill="#fff4eb">Spring Boot · .NET · FastAPI</text>
   </g>
   <rect x=".5" y=".5" width="899" height="345" rx="17.5" fill="none" stroke="#715545"/>
+
+  </g>
 </svg>

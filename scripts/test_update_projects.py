@@ -33,6 +33,7 @@ def demo():
     assert "Dexaroz pinned projects" in panels["projects"]
     for panel in panels.values():
         ET.fromstring(panel)
+        assert 'class="panel-fade"' in panel and "prefers-reduced-motion" in panel
 
 
 if __name__ == "__main__":

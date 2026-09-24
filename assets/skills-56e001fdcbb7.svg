@@ -12,6 +12,12 @@
     </radialGradient>
     <clipPath id="panelClip"><rect x="18" y="18" width="864" height="184" rx="15"/></clipPath>
   </defs>
+  <style>
+    @keyframes panel-fade { from { opacity: 0; } to { opacity: 1; } }
+    .panel-fade { animation: panel-fade .65s ease-out 0.65s both; }
+    @media (prefers-reduced-motion: reduce) { .panel-fade { animation: none; } }
+  </style>
+  <g class="panel-fade">
   <rect width="900" height="220" rx="20" fill="#1b1816"/>
   <rect x="18" y="18" width="864" height="184" rx="15" fill="url(#panel)" stroke="#655044"/>
   <ellipse cx="710" cy="45" rx="250" ry="125" fill="url(#light)" clip-path="url(#panelClip)"/>
@@ -75,4 +81,6 @@
   <text x="488.0" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#d8c7bd">FRONTEND</text>
   <path d="M602.0 91v91" stroke="#765b4c" stroke-opacity=".55"/>
   <text x="716.0" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#d8c7bd">BACKEND &amp; APIs</text>
+
+  </g>
 </svg>

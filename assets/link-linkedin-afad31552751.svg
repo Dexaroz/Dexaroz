@@ -1,9 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="82" viewBox="0 0 440 82" role="img" aria-labelledby="title">
   <title id="title">LinkedIn: linkedin.com/in/eduardomarreroglezz</title>
+  <style>
+    @keyframes panel-fade { from { opacity: 0; } to { opacity: 1; } }
+    .panel-fade { animation: panel-fade .65s ease-out 0.25s both; }
+    @media (prefers-reduced-motion: reduce) { .panel-fade { animation: none; } }
+  </style>
+  <g class="panel-fade">
   <rect x=".5" y=".5" width="439" height="81" rx="15" fill="#241e1a" stroke="#705342"/>
   <rect x="16" y="16" width="50" height="50" rx="12" fill="#ff713e"/>
   <text x="25" y="51" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#251a15">in</text>
   <text x="82" y="33" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#ff9063">LINKEDIN</text>
   <text x="82" y="56" font-family="Consolas, monospace" font-size="13" fill="#fff4eb">linkedin.com/in/eduardomarreroglezz</text>
   <path d="M405 28h11v11m0-11-14 14" fill="none" stroke="#ff9063" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  </g>
 </svg>
