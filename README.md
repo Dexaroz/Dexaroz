@@ -6,7 +6,7 @@
   <a href="https://github.com/Dexaroz">GitHub</a>
 </p>
 
-![Terminal profile with ASCII art and system information](assets/terminal.svg)
+![Terminal profile with ASCII art and system information](assets/terminal-v2.svg)
 
 ### Highlights
 
