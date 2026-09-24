@@ -3,20 +3,20 @@
   <desc id="description">ASCII art and a static summary of Eduardo's role, interests, technologies and links.</desc>
   <defs>
     <linearGradient id="screen" x2="0" y2="1">
-      <stop stop-color="#1c2a35"/>
-      <stop offset="1" stop-color="#121b24"/>
+      <stop stop-color="#29221e"/>
+      <stop offset="1" stop-color="#1c1917"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="346" rx="18" fill="#141b23" stroke="#586b79"/>
-  <path d="M18 0h864a18 18 0 0 1 18 18v27H0V18A18 18 0 0 1 18 0Z" fill="#202b35"/>
-  <circle cx="22" cy="23" r="4" fill="#b88d85"/>
-  <circle cx="37" cy="23" r="4" fill="#c3b58b"/>
-  <circle cx="52" cy="23" r="4" fill="#89a99a"/>
-  <text x="450" y="27" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#a9bcc8">dexaroz@github ~ /profile</text>
-  <rect x="18" y="62" width="390" height="264" rx="10" fill="url(#screen)" stroke="#3d5261"/>
-  <rect x="420" y="62" width="462" height="264" rx="10" fill="url(#screen)" stroke="#3d5261"/>
-  <text x="36" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#8fb0c0">VISUAL.MAP</text>
-  <text x="36" y="116" xml:space="preserve" font-family="Consolas, monospace" font-size="15" fill="#d7e4e9">
+  <rect width="900" height="346" rx="18" fill="#1b1816" stroke="#715545"/>
+  <path d="M18 0h864a18 18 0 0 1 18 18v27H0V18A18 18 0 0 1 18 0Z" fill="#2b221d"/>
+  <circle cx="22" cy="23" r="4" fill="#ff7140"/>
+  <circle cx="37" cy="23" r="4" fill="#e6a36f"/>
+  <circle cx="52" cy="23" r="4" fill="#e2c9ad"/>
+  <text x="450" y="27" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#d4b5a1">dexaroz@github ~ /profile</text>
+  <rect x="18" y="62" width="390" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
+  <rect x="420" y="62" width="462" height="264" rx="10" fill="url(#screen)" stroke="#674d3f"/>
+  <text x="36" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">VISUAL.MAP</text>
+  <text x="36" y="116" xml:space="preserve" font-family="Consolas, monospace" font-size="15" fill="#ffeadb">
     <tspan x="36" dy="0"> _____</tspan>
     <tspan x="36" dy="24">|  __ \</tspan>
     <tspan x="36" dy="24">| |  | | _____  ____ _ _ __ ___ ____</tspan>
@@ -24,14 +24,14 @@
     <tspan x="36" dy="24">| |__| |  __/&gt;  &lt; (_| | | | (_) / /</tspan>
     <tspan x="36" dy="24">|_____/ \___/_/\_\__,_|_|  \___/___|</tspan>
   </text>
-  <text x="36" y="289" font-family="Consolas, monospace" font-size="13" fill="#8fb0c0">&gt; building useful software_</text>
-  <text x="440" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#8fb0c0">SYSTEM.INFO</text>
+  <text x="36" y="289" font-family="Consolas, monospace" font-size="13" fill="#ff9063">&gt; building useful software_</text>
+  <text x="440" y="87" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#ff9063">SYSTEM.INFO</text>
   <g font-family="Consolas, monospace" font-size="14">
-    <text x="440" y="129" fill="#9fb1bd">name</text><text x="555" y="129" fill="#e4eaed">Eduardo Marrero González</text>
-    <text x="440" y="165" fill="#9fb1bd">handle</text><text x="555" y="165" fill="#e4eaed">@Dexaroz</text>
-    <text x="440" y="201" fill="#9fb1bd">role</text><text x="555" y="201" fill="#e4eaed">Software developer</text>
-    <text x="440" y="237" fill="#9fb1bd">focus</text><text x="555" y="237" fill="#e4eaed">AI · data · web</text>
-    <text x="440" y="273" fill="#9fb1bd">stack</text><text x="555" y="273" fill="#e4eaed">Python · Java · C# · Kotlin</text>
-    <text x="440" y="309" fill="#9fb1bd">status</text><text x="555" y="309" fill="#e4eaed">Building and learning</text>
+    <text x="440" y="129" fill="#caad9b">name</text><text x="555" y="129" fill="#fff4eb">Eduardo Marrero González</text>
+    <text x="440" y="165" fill="#caad9b">handle</text><text x="555" y="165" fill="#fff4eb">@Dexaroz</text>
+    <text x="440" y="201" fill="#caad9b">role</text><text x="555" y="201" fill="#fff4eb">Software developer</text>
+    <text x="440" y="237" fill="#caad9b">focus</text><text x="555" y="237" fill="#fff4eb">AI · data · web</text>
+    <text x="440" y="273" fill="#caad9b">stack</text><text x="555" y="273" fill="#fff4eb">Python · Java · C# · Kotlin</text>
+    <text x="440" y="309" fill="#caad9b">status</text><text x="555" y="309" fill="#fff4eb">Building and learning</text>
   </g>
 </svg>

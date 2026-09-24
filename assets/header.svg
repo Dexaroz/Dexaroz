@@ -3,21 +3,21 @@
   <desc id="description">Developer profile banner in muted slate and blue tones.</desc>
   <defs>
     <linearGradient id="panel" x2="1" y2="1">
-      <stop stop-color="#243444"/>
-      <stop offset="1" stop-color="#17212b"/>
+      <stop stop-color="#30231e"/>
+      <stop offset="1" stop-color="#201c19"/>
     </linearGradient>
     <radialGradient id="light">
-      <stop stop-color="#7398ad" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#7398ad" stop-opacity="0"/>
+      <stop stop-color="#ff713e" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#ff713e" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="avatarClip"><rect x="42" y="40" width="100" height="100" rx="12"/></clipPath>
   </defs>
-  <rect width="900" height="180" rx="20" fill="#151c25"/>
-  <rect x="18" y="18" width="864" height="144" rx="15" fill="url(#panel)" stroke="#46586b"/>
+  <rect width="900" height="180" rx="20" fill="#1b1816"/>
+  <rect x="18" y="18" width="864" height="144" rx="15" fill="url(#panel)" stroke="#655044"/>
   <ellipse cx="690" cy="45" rx="250" ry="125" fill="url(#light)"/>
   <image href="avatar.jpg" x="42" y="40" width="100" height="100" clip-path="url(#avatarClip)"/>
-  <rect x="42" y="40" width="100" height="100" rx="12" fill="none" stroke="#86a6b8" stroke-width="2"/>
-  <text x="153" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2" fill="#9ab3c2">@DEXAROZ</text>
-  <text x="151" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#f2f5f6">Eduardo Marrero González</text>
-  <text x="153" y="142" xml:space="preserve" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#c4d0d8">Software Developer |   Data Science, AI &amp; ML</text>
+  <rect x="42" y="40" width="100" height="100" rx="12" fill="none" stroke="#ff7846" stroke-width="2"/>
+  <text x="153" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2" fill="#ff9063">@DEXAROZ</text>
+  <text x="151" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#fff8f2">Eduardo Marrero González</text>
+  <text x="153" y="142" xml:space="preserve" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#d8c7bd">Software Developer |   Data Science, AI &amp; ML</text>
 </svg>

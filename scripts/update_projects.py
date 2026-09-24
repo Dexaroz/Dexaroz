@@ -53,14 +53,14 @@ def project_card(repo, x, y):
     return f"""
     <g>
       <rect x="{x}" y="{y}" width="422" height="174" rx="13" class="card"/>
-      <circle cx="{x + 16}" cy="{y + 17}" r="3" fill="#89a99a"/>
+      <circle cx="{x + 16}" cy="{y + 17}" r="3" fill="#ff7846"/>
       <text x="{x + 29}" y="{y + 21}" class="meta">{owner}</text>
-      <line x1="{x}" y1="{y + 33}" x2="{x + 422}" y2="{y + 33}" stroke="#3d5261"/>
+      <line x1="{x}" y1="{y + 33}" x2="{x + 422}" y2="{y + 33}" stroke="#674d3f"/>
       <text x="{x + 16}" y="{y + 61}" class="name">{name}</text>
       {description_svg}
-      <rect x="{x + 16}" y="{y + 120}" width="{max(58, len(tags) * 7.2 + 20):.0f}" height="22" rx="11" fill="#263a49"/>
-      <text x="{x + 27}" y="{y + 135}" class="meta">{safe(tags)}</text>
-      <text x="{x + 16}" y="{y + 160}" class="meta">★ {stars}   ·   pushed {safe(pushed)}</text>
+      <rect x="{x + 16}" y="{y + 120}" width="{max(58, len(tags) * 7.2 + 20):.0f}" height="22" rx="11" fill="#4a3025"/>
+      <text x="{x + 27}" y="{y + 135}" class="accent">{safe(tags)}</text>
+      <text x="{x + 16}" y="{y + 160}" class="accent">★ {stars}   ·   pushed {safe(pushed)}</text>
     </g>"""
 
 
@@ -75,17 +75,18 @@ def render(repos):
   <title id="title">Dexaroz pinned projects</title>
   <desc id="description">Public repositories pinned on Dexaroz's GitHub profile, updated by GitHub Actions.</desc>
   <style>
-    .card {{ fill: #1a2630; stroke: #4a6070; }}
-    .meta {{ fill: #a9c4d2; font: 12px Consolas, monospace; }}
-    .name {{ fill: #f2f5f6; font: bold 18px Consolas, monospace; }}
-    .body {{ fill: #c4d0d8; font: 13px Consolas, monospace; }}
+    .card {{ fill: #29221e; stroke: #715545; }}
+    .meta {{ fill: #d4b5a1; font: 12px Consolas, monospace; }}
+    .accent {{ fill: #ff9b6f; font: 12px Consolas, monospace; }}
+    .name {{ fill: #fff8f2; font: bold 18px Consolas, monospace; }}
+    .body {{ fill: #e0cfc2; font: 13px Consolas, monospace; }}
   </style>
-  <rect width="900" height="{height}" rx="18" fill="#141b23"/>
-  <rect x=".5" y=".5" width="899" height="{height - 1}" rx="18" fill="none" stroke="#586b79"/>
-  <text x="20" y="31" class="meta">PROJECTS.LIST</text>
+  <rect width="900" height="{height}" rx="18" fill="#1b1816"/>
+  <rect x=".5" y=".5" width="899" height="{height - 1}" rx="18" fill="none" stroke="#715545"/>
+  <text x="20" y="31" class="accent">PROJECTS.LIST</text>
   <text x="165" y="31" class="meta">~/projects.sh --pinned</text>
   <text x="878" y="31" text-anchor="end" class="meta">{len(repos)} pinned · checked {checked}</text>
-  <line x1="18" y1="46" x2="882" y2="46" stroke="#4a6070"/>
+  <line x1="18" y1="46" x2="882" y2="46" stroke="#715545"/>
 {cards}
 </svg>
 """
