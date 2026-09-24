@@ -1,0 +1,35 @@
+name: Update profile
+
+on:
+  push:
+    paths:
+      - profile.yml
+      - scripts/**
+      - templates/**
+      - assets/avatar.jpg
+  schedule:
+    - cron: '2/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install YAML parser
+        run: python3 -m pip install PyYAML==6.0.3
+      - name: Render profile
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/render_profile.py
+      - name: Commit when changed
+        run: |
+          git add -A README.md assets
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update profile from YAML and GitHub'
+          git push
