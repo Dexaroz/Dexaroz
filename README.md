@@ -1,52 +1,17 @@
-![Banner](banner-github.png)
+![Eduardo Marrero González — Dexaroz](assets/header.png)
 
-# Hi there, I'm Dexaroz 👋
-Welcome to my GitHub profile! I'm currently studing Computer Science at the ULPGC with a keen interest in Web Development, Software Development, Cibersecurity, Data Science and Artificial Inteligence + Machine Learning. Here you'll find information about the courses I've taken and the skills I'm currently developing. Feel free to explore and connect!
+<p align="center">
+  <a href="https://eduardomarrero.dev/es">Website</a> ·
+  <a href="https://www.linkedin.com/in/eduardomarreroglezz/">LinkedIn</a> ·
+  <a href="https://github.com/Dexaroz">GitHub</a>
+</p>
 
-# 🚀 About Me
- * 📚 In the process of completing courses in Web Development.
- * ⚡  Solving  LeetCode problems.
- * 🧑💻 Currently third-year CS student.
+![Animated terminal profile with ASCII art and system information](assets/terminal.gif)
 
-# 🧑🎓 Courses and Certifications
+### Highlights
 
- * [Full-Stack Engineer Path](https://www.codecademy.com/career-journey/full-stack-engineer)
-    * Institution: Codecademy.
-    * State: Active.
+| Open source | Applied AI | Useful software |
+| :--- | :--- | :--- |
+| Tools for building and observing agent systems. | Projects involving data, vision and language. | Products designed around everyday problems. |
 
- * [Getting Started with Linux Fundamentals (RH104)](https://www.redhat.com/es)
-    * Institution: Red Hat.
-    * State: Completed.
-      
- * [Red Hat System Administration I (RH124)](https://www.redhat.com/es)
-    * Institution: Red Hat.
-    * State: Completed.
-      
- * [Red Hat System Administration II (RH134)](https://www.redhat.com/es)
-    * Institution: Red Hat.
-    * State: Completed.
-
-
-# 🛠️ Technologies & Tools
-Here are some of the technologies and tools I use and am interested in:
-
-* Languages: Python, Java, C, C++, R.
-* Frameworks & Libraries: [UPDATE].
-* Tools & Platforms: [UPDATE].
-* Databases: MySQL, Oracle.
-
-# 📚 Recommended books
-Here are some books I've personally read and highly recommend:
-
- * [La mente del hacker](https://www.agapea.com/Bruce-Schneier/La-mente-del-hacker-Como-revertir-la-situacion-cuando-las-elites-rompen-las-reglas-9788441548466-i.htm?utm_source=Adwords&utm_medium=cpc&utm_campaign=ShoppingC&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7NxqNu3UdnQXaWpV9qzrwQr07Hx8a35__D7Tbf77E9SM4nK4BDP4SUwwaAh3REALw_wcB)
-    * Author: Bruce Scheneir.
-    * Category: Cibersecurity.
-
-# 📝 LeetCode Profile
-![LeetCode Stats](https://leetcard.jacoblin.cool/Dexaroz?theme=dark&font=Noto%20Sans%20Soyombo).
-
-Ranking: 718.274.
-
-# 🌐 Connect with Me
-* [LinkedIn](https://www.linkedin.com/in/eduardo-marrero-gonz%C3%A1lez-515848227/)
-
+[![Pinned projects, generated from the public GitHub profile](assets/projects.svg)](https://github.com/Dexaroz)

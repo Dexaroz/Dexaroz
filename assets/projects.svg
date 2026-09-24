@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="462" viewBox="0 0 900 462" role="img" aria-labelledby="title description">
+  <title id="title">Dexaroz pinned projects</title>
+  <desc id="description">Public repositories pinned on Dexaroz's GitHub profile, updated by GitHub Actions.</desc>
+  <style>
+    .card { fill: #1a2630; stroke: #4a6070; }
+    .meta { fill: #a9c4d2; font: 12px Consolas, monospace; }
+    .name { fill: #f2f5f6; font: bold 18px Consolas, monospace; }
+    .body { fill: #c4d0d8; font: 13px Consolas, monospace; }
+  </style>
+  <rect width="900" height="462" rx="18" fill="#141b23"/>
+  <rect x=".5" y=".5" width="899" height="461" rx="18" fill="none" stroke="#586b79"/>
+  <text x="20" y="31" class="meta">PROJECTS.LIST</text>
+  <text x="165" y="31" class="meta">~/projects.sh --pinned</text>
+  <text x="878" y="31" text-anchor="end" class="meta">4 pinned · checked 2026-09</text>
+  <line x1="18" y1="46" x2="882" y2="46" stroke="#4a6070"/>
+
+    <g>
+      <rect x="18" y="70" width="422" height="174" rx="13" class="card"/>
+      <circle cx="34" cy="87" r="3" fill="#89a99a"/>
+      <text x="47" y="91" class="meta">phronesis-framework/phronesis-framework</text>
+      <line x1="18" y1="103" x2="440" y2="103" stroke="#3d5261"/>
+      <text x="34" y="131" class="name">phronesis-framework</text>
+      <text x="34" y="156" class="body">Phronesis is a Python framework for designing,</text><text x="34" y="175" class="body">composing, and operating AI agent systems -…</text>
+      <rect x="34" y="190" width="250" height="22" rx="11" fill="#263a49"/>
+      <text x="45" y="205" class="meta">Python · agent · agent-framework</text>
+      <text x="34" y="230" class="meta">★ 3   ·   pushed 2026-09-23</text>
+    </g>
+    <g>
+      <rect x="460" y="70" width="422" height="174" rx="13" class="card"/>
+      <circle cx="476" cy="87" r="3" fill="#89a99a"/>
+      <text x="489" y="91" class="meta">siani-big-data/2026-geneflow</text>
+      <line x1="460" y1="103" x2="882" y2="103" stroke="#3d5261"/>
+      <text x="476" y="131" class="name">2026-geneflow</text>
+      <text x="476" y="156" class="body">GeneFlow es una plataforma SaaS distribuida y</text><text x="476" y="175" class="body">orientada a eventos para la visualización, el…</text>
+      <rect x="476" y="190" width="58" height="22" rx="11" fill="#263a49"/>
+      <text x="487" y="205" class="meta">C#</text>
+      <text x="476" y="230" class="meta">★ 2   ·   pushed 2026-09-09</text>
+    </g>
+    <g>
+      <rect x="18" y="258" width="422" height="174" rx="13" class="card"/>
+      <circle cx="34" cy="275" r="3" fill="#89a99a"/>
+      <text x="47" y="279" class="meta">Dexaroz/VoxLy</text>
+      <line x1="18" y1="291" x2="440" y2="291" stroke="#3d5261"/>
+      <text x="34" y="319" class="name">VoxLy</text>
+      <text x="34" y="344" class="body">VoxLy is an AI-powered platform that helps you</text><text x="34" y="363" class="body">improve your presentation skills. Record or…</text>
+      <rect x="34" y="378" width="58" height="22" rx="11" fill="#263a49"/>
+      <text x="45" y="393" class="meta">Java</text>
+      <text x="34" y="418" class="meta">★ 1   ·   pushed 2026-09-09</text>
+    </g>
+    <g>
+      <rect x="460" y="258" width="422" height="174" rx="13" class="card"/>
+      <circle cx="476" cy="275" r="3" fill="#89a99a"/>
+      <text x="489" y="279" class="meta">atlas-assistant-system/atlas-system</text>
+      <line x1="460" y1="291" x2="882" y2="291" stroke="#3d5261"/>
+      <text x="476" y="319" class="name">atlas-system</text>
+      <text x="476" y="344" class="body">Ambient smart-mirror dashboard: clock, agenda,</text><text x="476" y="363" class="body">habits, money, food and training over a…</text>
+      <rect x="476" y="378" width="58" height="22" rx="11" fill="#263a49"/>
+      <text x="487" y="393" class="meta">Java</text>
+      <text x="476" y="418" class="meta">★ 1   ·   pushed 2026-09-24</text>
+    </g>
+</svg>
