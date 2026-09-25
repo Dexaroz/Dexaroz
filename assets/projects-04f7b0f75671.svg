@@ -46,24 +46,24 @@
     <g>
       <rect x="18" y="258" width="422" height="174" rx="13" class="card"/>
       <circle cx="34" cy="275" r="3" fill="#ff7846"/>
-      <text x="47" y="279" class="meta">Dexaroz/VoxLy</text>
+      <text x="47" y="279" class="meta">atlas-assistant-system/atlas-system</text>
       <line x1="18" y1="291" x2="440" y2="291" stroke="#674d3f"/>
-      <text x="34" y="319" class="name">VoxLy</text>
-      <text x="34" y="344" class="body">VoxLy is an AI-powered platform that helps you</text><text x="34" y="363" class="body">improve your presentation skills. Record or…</text>
+      <text x="34" y="319" class="name">atlas-system</text>
+      <text x="34" y="344" class="body">Ambient smart-mirror dashboard: clock, agenda,</text><text x="34" y="363" class="body">habits, money, food and training over a…</text>
       <rect x="34" y="378" width="58" height="22" rx="11" fill="#4a3025"/>
       <text x="45" y="393" class="accent">Java</text>
-      <text x="34" y="418" class="accent">★ 1   ·   pushed 2026-09-09</text>
+      <text x="34" y="418" class="accent">★ 1   ·   pushed 2026-09-24</text>
     </g>
     <g>
       <rect x="460" y="258" width="422" height="174" rx="13" class="card"/>
       <circle cx="476" cy="275" r="3" fill="#ff7846"/>
-      <text x="489" y="279" class="meta">atlas-assistant-system/atlas-system</text>
+      <text x="489" y="279" class="meta">Dexaroz/VoxLy</text>
       <line x1="460" y1="291" x2="882" y2="291" stroke="#674d3f"/>
-      <text x="476" y="319" class="name">atlas-system</text>
-      <text x="476" y="344" class="body">Ambient smart-mirror dashboard: clock, agenda,</text><text x="476" y="363" class="body">habits, money, food and training over a…</text>
+      <text x="476" y="319" class="name">VoxLy</text>
+      <text x="476" y="344" class="body">VoxLy is an AI-powered platform that helps you</text><text x="476" y="363" class="body">improve your presentation skills. Record or…</text>
       <rect x="476" y="378" width="58" height="22" rx="11" fill="#4a3025"/>
       <text x="487" y="393" class="accent">Java</text>
-      <text x="476" y="418" class="accent">★ 1   ·   pushed 2026-09-24</text>
+      <text x="476" y="418" class="accent">★ 1   ·   pushed 2026-09-09</text>
     </g>
 
   </g>

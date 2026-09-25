@@ -8,4 +8,4 @@
 
 ![Technology icons grouped by languages, frontend, and backend APIs](assets/skills-56e001fdcbb7.svg)
 
-[![Pinned projects, generated from the public GitHub profile](assets/projects-53eb022e72a8.svg)](https://github.com/Dexaroz)
+[![Pinned projects, generated from the public GitHub profile](assets/projects-04f7b0f75671.svg)](https://github.com/Dexaroz)
