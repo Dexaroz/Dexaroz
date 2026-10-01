@@ -18,7 +18,7 @@
   <rect x=".5" y=".5" width="899" height="461" rx="18" fill="none" stroke="#715545"/>
   <text x="20" y="31" class="accent">PROJECTS.LIST</text>
   <text x="165" y="31" class="meta">~/projects.sh --pinned</text>
-  <text x="878" y="31" text-anchor="end" class="meta">4 pinned · checked 2026-09</text>
+  <text x="878" y="31" text-anchor="end" class="meta">4 pinned · checked 2026-10</text>
   <line x1="18" y1="46" x2="882" y2="46" stroke="#715545"/>
 
     <g>
